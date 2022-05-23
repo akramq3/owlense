@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background-color: black;
+    background-image: url("vatsal-patel-jSnEuFv4KVw-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Lucida Handwriting;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+.n{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.n li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+.n li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.n li a:hover{
+    color: #ff7200;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #000;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+            /*The End of Navigation Bar*/
+.container{
+      width: 95%;
+      margin: 0 auto;
+
+}
+.book{
+      box-shadow: 0px 5px 13px -3px rgba(0,0,0,0.75);
+      display: flex;
+      flex-wrap: wrap;
+}
+.description{
+    background-size:cover;
+    /*background-image: url("cat_nature.jpg");*/
+    background-repeat: no-repeat;
+}
+.description, .form{
+      width: 40%;
+      padding: 5%;
+}
+.description h1{
+      text-transform: uppercase;
+      color: white;
+      font-weight: 400;
+      margin-top: 0;
+}
+.description h1 strong{
+      font-weight: 700;
+      color: black;
+      background-color: rgba(255, 255, 255, 0.289);
+}
+.description p{
+      color:#fff;
+      font-size: 14px;
+      line-height: 22px;
+}
+.description ul{
+      padding-left: 16px;
+      list-style: circle;
+      color: white;
+}
+.quote h3{
+      font-style: italic;
+      padding:5%;
+      color: rgba(255, 255, 255, 0.700);
+}
+.description ul li h4{
+      margin: 10px 0;
+      color:rgba(100, 100, 100, 0.666);
+      font-size: 20px;
+}
+input{
+  background-color: rgba(212, 212, 212, 0.873) ;
+  color: black;
+}
+.form{
+  /*  background-image: url("Gear-Photos-597589287.jpg");*/
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.form form{
+  color:rgba(194, 194, 194, 0.550);
+  display: flex;
+  flex-wrap: wrap;
+}
+.inpbox.full{
+    width: 100%;
+    background:rgba(46, 46, 46, 0.416) ;
+    padding: 3%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.inpbox {
+    width: 300px;
+    background: none;
+    padding: 3%;
+    margin-bottom: 20px;
+    margin-right: 2%;
+    font-size: 25px;
+    color: white;
+}
+/*
+.form label{
+    /*color: #ff7200;
+    color: #ff7200;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+ }
+ .table td{
+   height: 70px;
+   text-align: center;
+ }
+.inpbox{
+    width: 100%;
+    padding-left: 10px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-right: 25px;
+}*/
+td:hover {
+  background-color: rgba(46, 46, 46, 0.416)  ;
+}
+.button{
+    padding: 2% 3%;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 0;
+    margin-right: 3%;
+    background: rgba(213, 238, 249, 0.679);
+}
